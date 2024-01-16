@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.manu{
+width: 100%;
+
+text-align: center;
+
+
+}
+.manu ul li {
+ display: inline-block;
+
+}
+.manu ul li a{
+    text-align: right;
+    line-height: 90px;
+    padding: 12px 12px;
+    font-size: 14px;
+    color: rgb(35, 81, 121);
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.manu ul li :hover{
+    color: rgb(142, 169, 22);
+    background-color: rgba(24, 62, 50, 0.208);
+    border-radius: 7px 0 7px 0;
+}
+
+.headding{
+    text-align: center;
+
+}
+
+
+
+
+.imgg{
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.imgg img{
+ width: 100%;
+}
+.ppp{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.ppp h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ppp p {
+    text-align: center;
+}
+
+
+
+.bt{
+    text-align: center;
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bt button{
+    font-size: 18px;
+    color: rgb(182, 180, 60);
+    background: rgba(30, 13, 97, 0.94);
+    border: 1px;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px 0 7px 0;
+}
+.bt button:hover{
+    border-radius: 0 7px 0 7px;
+    background: #66336fa0;
+    color: #2d04c3;
+}
